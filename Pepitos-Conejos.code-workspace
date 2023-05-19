@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../PepitosConejos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pepitos-Conejos"
+	}
+}
