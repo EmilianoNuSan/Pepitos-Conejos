@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content=
-        "width=device-width, initial-scale=1.0">
-    <title>PONG GAME</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-  
-<body>
-    <div class="board">
-        <div class='ball'>
-            <div class="ball_effect"></div>
-        </div>
-        <div class="paddle_1 paddle"></div>
-        <div class="paddle_2  paddle"></div>
-        <h1 class="player_1_score">0</h1>
-        <h1 class="player_2_score">0</h1>
-        <h1 class="message">
-            Press Enter to Play Pong
-        </h1>
-    </div>
-      
-    <script src="JS/index.js"></script>
-</body>
-  
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital_scale=1.0">
+        <title>PONG</title>
+    </head>
+    <style>
+        @import url(https://fonts.google.com/specimen/Exo+2);
+        *{
+            font-family: 'Exo', Arial, Helvetica, sans-serif;
+        }
+        body{
+            text-align: center;
+            background-color:azure;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            position: fixed;
+            width: 100%;
+
+        }
+    </style>
+    <body>
+        <h1>PONG</h1>
+        <canvas></canvas>
+        <p>Jugador de la izquierda flechas arriba y abajo</p>
+        <script src="./index.js"></script>
+    </body>
 </html>
